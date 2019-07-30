@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap');
+
+$main-font-family: 'Source Sans Pro', sans-serif;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $main-font-family;
+}
+
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+p::selection,
+a::selection,
+li::selection,
+span::selection {
+  color: red;
+}
+
+p {
+  font-family: $main-font-family;
+}
+
+a, li {
+  font-family: $main-font-family;
+}
